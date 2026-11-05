@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 300px;
+}
+.categoria{
+    padding-top: 450px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between; /* distribui espaços de forma igual */
+
+
+}
+
+.menu-principal ul{/* remove a marcação*/
+    list-style: none;
+}
+.menu-principal ul li{/* colocar todos os li na mesma linha*/
+    display: inline-block;
+}
+.menu-principal ul li a{
+    background-color: rgb(252, 249, 249);
+    color: rgb(120, 0, 240);
+    text-decoration: none;/*tira a linha do link*/
+    text-transform: uppercase;/*transforma texto em maiusculo*/
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.06s ease;
+}
+.menu-principal ul li a:hover{
+
+    background-color: rgb(255, 0, 0);
+    color: rgb(5, 5, 5);
+    transition: 0.60 ease;
+}
+#pagina-home{
+    height: 600px;
+    background:linear-gradient(rgba(146, 146, 146, 0.281),rgba(207, 206, 206, 0.548) ), url(../img/14.jpg);
+    background-size: cover;
+    background-position: center;
+}
